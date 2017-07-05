@@ -19,7 +19,7 @@ public class MainController {
     public ResponseEntity<String> inbound(HttpServletRequest request) {
 
 
-        return new ResponseEntity<String>("Done:testing1", HttpStatus.OK);
+        return new ResponseEntity<String>("Done:testing2", HttpStatus.OK);
 
     }
 
